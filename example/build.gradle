@@ -42,7 +42,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_7
     }
 
-    signingConfigs {
+    /*signingConfigs {
         debug {
             storeFile file(System.getProperty("user.home") + "/.android/debug.keystore")
         }
@@ -53,9 +53,9 @@ android {
             keyAlias nhaarman_lva_keyAlias
             keyPassword nhaarman_lva_keyPassword
         }
-    }
+    }*/
 
-    buildTypes {
+    /*buildTypes {
 
         debug {
             debuggable true
@@ -66,7 +66,7 @@ android {
             debuggable false
             signingConfig signingConfigs.release
         }
-    }
+    }*/
 
     lintOptions {
         abortOnError false

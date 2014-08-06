@@ -33,7 +33,8 @@ For `lib-manipulation` and `lib-core-slh`, `lib-core` is required to be present 
 Add the following to your `build.gradle`:
 
 	repositories {
-		mavenCentral()
+		mavenLocal()
+                maven { url 'http://maven.oschina.net/content/groups/public/' }
 	}
 	
 	dependencies {

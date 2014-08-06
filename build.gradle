@@ -16,7 +16,8 @@
 
 buildscript {
     repositories {
-        mavenCentral()
+        mavenLocal()
+        maven { url 'http://maven.oschina.net/content/groups/public/' }
     }
 
     dependencies {
@@ -30,6 +31,7 @@ allprojects {
     version = VERSION_NAME
 
     repositories {
-        mavenCentral()
+        mavenLocal()
+        maven { url 'http://maven.oschina.net/content/groups/public/' }
     }
 }
